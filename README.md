@@ -5,6 +5,13 @@ The primary public use of this library will be via the PersistKeysToSqlServer() 
 
 Usage:
 In your database context, implement IDataProtectionContext and add a DbSet<DataProtectionKey> property.
+```
+    public class ApplicationDbContext : IDataProtectionContext
+    {
+        public DbSet<DataProtectionKey> DataProtectionKeys { get; set; }
+    ...
+    }
+```
   
 In Startup.cs's ConfigureServices method, add a service to provide the IDataProtectionContext:
 `services.AddTransient<IDataProtectionContext, ApplicationDbContext>();`
