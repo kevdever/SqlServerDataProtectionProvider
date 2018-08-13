@@ -1,4 +1,4 @@
-![nuget](https://img.shields.io/badge/nuget-v1.0.0-green.svg?style=flat&longCache=true/url/https/www.nuget.org/packages/SqlServerDataProtectionProvider/)
+[![nuget](https://img.shields.io/badge/nuget-v1.0.0-green.svg?style=flat&longCache=true/url/https/www.nuget.org/packages/SqlServerDataProtectionProvider/)](https://www.nuget.org/packages/SqlServerDataProtectionProvider/)
 
 # SqlServerDataProtectionProvider
 A .Net Core Data Protection provider to persist keys to Sql Server
